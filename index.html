@@ -9,21 +9,21 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
 
    <!-- Place favicon.ico in the root directory -->
-   <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+   <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.png">
 
    <!-- CSS here -->
-   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-   <link rel="stylesheet" href="assets/css/animate.css">
-   <link rel="stylesheet" href="assets/css/custom-animation.css">
-   <link rel="stylesheet" href="assets/css/slick.css">
-   <link rel="stylesheet" href="assets/css/nice-select.css">
-   <link rel="stylesheet" href="assets/css/flaticon.css">
-   <link rel="stylesheet" href="assets/css/swiper-bundle.css">
-   <link rel="stylesheet" href="assets/css/meanmenu.css">
-   <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
-   <link rel="stylesheet" href="assets/css/magnific-popup.css">
-   <link rel="stylesheet" href="assets/css/spacing.css">
-   <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+   <link rel="stylesheet" href="./assets/css/animate.css">
+   <link rel="stylesheet" href="./assets/css/custom-animation.css">
+   <link rel="stylesheet" href="./assets/css/slick.css">
+   <link rel="stylesheet" href="./assets/css/nice-select.css">
+   <link rel="stylesheet" href="./assets/css/flaticon.css">
+   <link rel="stylesheet" href="./assets/css/swiper-bundle.css">
+   <link rel="stylesheet" href="./assets/css/meanmenu.css">
+   <link rel="stylesheet" href="./assets/css/font-awesome-pro.css">
+   <link rel="stylesheet" href="./assets/css/magnific-popup.css">
+   <link rel="stylesheet" href="./assets/css/spacing.css">
+   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
@@ -52,7 +52,7 @@
                   <div class="search__top d-flex justify-content-between align-items-center">
                      <div class="search__logo">
                         <a href="home-main.html">
-                           <img src="assets/img/logo/logo-white.png" alt="">
+                           <img src="./assets/img/logo/logo-white.png" alt="">
                         </a>
                      </div>
                      <div class="search__close">
@@ -94,45 +94,20 @@
    <!-- search popup end -->
 
    <!-- tp-header-area-start -->
-   <header class="header-bottom__transparent z-index-6 tp-header-height">
-
-      <!-- header top area -->
-      <div class="header-top__area header-top__space z-index-3 d-none d-md-block tp-header-top-animation">
+   <header class="tp-header-height" style="height: 0px;">
+      <!-- tp-header-area-start -->
+      <div id="header-sticky" class="header-bottom__area header-sticky-bg-2 header-bottom__transparent header-bottom__bdr z-index-5">
          <div class="container">
-            <div class="row align-items-start">
-               <div class="col-6">
-                  <div class="header-top__link">
-                     <span>Get Customized Application which cares your business 24/7 Now</span>
-                     <a href="#">
-                        <svg width="7" height="10" viewBox="0 0 7 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M1.40918 9L5.591 5L1.40918 1" stroke="white" stroke-width="1.5"
-                              stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                     </a>
-                  </div>
-               </div>
-               <div class="col-6">
-                  <div class="header-top__support text-end">
-                     <span>For Business Collaboration : <a href="tel:+91 8680818100">+91 8680818100</a></span>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-
-      <!-- header bottom -->
-      <div id="header-sticky"
-         class="header-bottom__area header-mob-space header-bottom__area-2 header-bottom__transparent z-index-5">
-         <div class="container">
-            <div class="row align-items-center">
+            <div class="row g-0 align-items-center">
                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-6">
                   <div class="header-bottom__logo">
-                     <a href="index.html"><img src="assets/img/logo/logo-black.png" alt=""></a>
+                     <a class="white-logo" href="index.html"><img src="././assets/img/logo/logo-white.png" alt=""></a>
+                     <a class="black-logo" href="index.html"><img src="././assets/img/logo/logo-black.png" alt=""></a>
                   </div>
                </div>
-               <div class="col-xxl-6 col-xl-5 col-lg-5 d-none d-lg-block">
-                  <div class="header-bottom__main-menu">
-                     <nav id="mobile-menu">
+               <div class="col-xxl-7 col-xl-7 col-lg-7 d-none d-lg-block">
+                  <div class="header-bottom__main-menu header-bottom__main-menu-4 header-bottom__main-menu-inner">
+                     <nav id="mobile-menu" style="display: block;">
                         <ul>
                            <li>
                               <a href="index.html">Home</a>
@@ -146,14 +121,23 @@
                                  <li><a href="WebService.html">Web Development</a></li>
                                  <li><a href="AppServices.html">App Development</a></li>
                                  <li><a href="SaasServices.html">SAAS Services</a></li>
-                                 <li><a href="DM&B.html">Digital Marketing & Branding</a></li>
+                                 <li><a href="DM&amp;B.html">Digital Marketing &amp; Branding</a></li>
                                  <li><a href="StartUpService.html">Build Yout StartUp</a></li>
                               </ul>
                            </li>
+                           <li>
+                            <a href="services.html">products</a>
+                            <ul class="submenu">
+                               <li><a href="./KarmadevCommerce.html">KarmaDev Commerce</a></li>
+                               
+                            </ul>
+                         </li>
                            <li><a href="about.html">About</a></li>
                            <li>
                               <a href="#">More</a>
                               <ul class="submenu">
+                                <li><a href="Approach.html">Approach</a></li>
+
                                  <li><a href="career.html">Careers</a></li>
                                  <li><a href="blog.html">Blog</a></li>
                               </ul>
@@ -162,51 +146,34 @@
                      </nav>
                   </div>
                </div>
-               <div class="col-xxl-4 col-xl-5 col-lg-5 col-md-8 col-6">
+               <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-8 col-6">
                   <div class="header-bottom__right d-flex align-items-center justify-content-end">
-                     <div class="header-bottom__action">
-                        <a class="d-none d-md-inline-block search-open-btn" href="javascript:void(0)">
-                           <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <path
-                                 d="M8.6 16.2C12.7974 16.2 16.2 12.7974 16.2 8.6C16.2 4.40264 12.7974 1 8.6 1C4.40264 1 1 4.40264 1 8.6C1 12.7974 4.40264 16.2 8.6 16.2Z"
-                                 stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                              <path d="M16.9999 17L15.3999 15.4" stroke="#292D32" stroke-width="1.5"
-                                 stroke-linecap="round" stroke-linejoin="round" />
-                           </svg>
-                        </a>
-                        <a class="d-none d-lg-inline-block last-child" href="register.html">
-                           <svg width="14" height="16" viewBox="0 0 14 16" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <path
-                                 d="M7 8C8.92882 8 10.4924 6.433 10.4924 4.5C10.4924 2.567 8.92882 1 7 1C5.07118 1 3.50757 2.567 3.50757 4.5C3.50757 6.433 5.07118 8 7 8Z"
-                                 stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                 stroke-linejoin="round" />
-                              <path d="M13 15C13 12.291 10.3108 10.1 7 10.1C3.68917 10.1 1 12.291 1 15"
-                                 stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                 stroke-linejoin="round" />
-                           </svg>
+                     <div class="header-bottom__action header-bottom__action-4 d-none d-xl-block">
+                        <a class="d-none d-lg-inline-block header-bottom__action-2 border-none" href="register.html">
+                           <!-- <svg width="14" height="16" viewBox="0 0 14 16" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path
+                                    d="M7 8C8.92882 8 10.4924 6.433 10.4924 4.5C10.4924 2.567 8.92882 1 7 1C5.07118 1 3.50757 2.567 3.50757 4.5C3.50757 6.433 5.07118 8 7 8Z"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                 <path d="M13 15C13 12.291 10.3108 10.1 7 10.1C3.68917 10.1 1 12.291 1 15" stroke="currentColor"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                           </svg> -->
                            <!-- <span>Log In</span> -->
                         </a>
                      </div>
                      <div class="header-bottom__btn d-flex align-items-center">
-                        <a class="tp-btn-white tp-btn-hover alt-color-black d-none d-md-inline-block"
-                           href="contact.html">
+                        <a class="tp-btn-white tp-btn-hover alt-color-black d-none d-md-inline-block" href="contact.html">
                            <span class="white-text">Contact Us</span>
                            <b></b>
                         </a>
-                        <a class="header-bottom__bar d-lg-none tp-menu-bar" href="javascript:void(0)"><i
-                              class="fal fa-bars"></i></a>
+                        <a class="header-bottom__bar d-lg-none tp-menu-bar" href="javascript:void(0)"><i class="fal fa-bars"></i></a>
                      </div>
                   </div>
                </div>
             </div>
          </div>
       </div>
-
-
       <!-- tp-header-area-end -->
-
    </header>
 
    <!-- tp-offcanvus-area-start -->
@@ -217,7 +184,7 @@
          </div>
          <div class="tpoffcanvas__logo text-center">
             <a href="index.html">
-               <img src="assets/img/logo/logo-white.png" alt="">
+               <img src="./assets/img/logo/logo-white.png" alt="">
             </a>
          </div>
          <div class="mobile-menu"></div>
@@ -225,10 +192,10 @@
             <div class="tpoffcanvas__instagram-title">
                <h4>instagram</h4>
             </div>
-            <a href="#"><img src="assets/img/project/project-inner-4.jpg" alt=""></a>
-            <a href="#"><img src="assets/img/project/project-inner-5.jpg" alt=""></a>
-            <a href="#"><img src="assets/img/project/project-inner-6.jpg" alt=""></a>
-            <a href="#"><img src="assets/img/project/project-inner-7.jpg" alt=""></a>
+            <a href="#"><img src="./assets/img/project/project-inner-4.jpg" alt=""></a>
+            <a href="#"><img src="./assets/img/project/project-inner-5.jpg" alt=""></a>
+            <a href="#"><img src="./assets/img/project/project-inner-6.jpg" alt=""></a>
+            <a href="#"><img src="./assets/img/project/project-inner-7.jpg" alt=""></a>
          </div>
          <div class="tpoffcanvas__info text-center">
             <h4 class="offcanva-title">we are here</h4>
@@ -258,13 +225,13 @@
             <!-- tp-hero-area-start -->
             <div class="tp-hero-area tp-hero-five__ptb-5 p-relative grey-bg-2 fix">
                <div class="tp-hero-five__shape-2">
-                  <img src="assets/img/hero/hero-circle-5-1.png" alt="">
+                  <img src="./assets/img/hero/hero-circle-5-1.png" alt="">
                </div>
                <div class="tp-hero-five__shape-3">
-                  <img src="assets/img/hero/hero-circle-5-2.png" alt="">
+                  <img src="./assets/img/hero/hero-circle-5-2.png" alt="">
                </div>
                <div class="tp-hero-five__shape-4">
-                  <img src="assets/img/hero/hero-circle-5-3.png" alt="">
+                  <img src="./assets/img/hero/hero-circle-5-3.png" alt="">
                </div>
                <div class="container">
                   <div class="row align-items-center">
@@ -304,13 +271,13 @@
                </div>
                <div class="tp-hero-five-2-thumb-main p-relative">
                   <div class="tp-hero-five-2-thumb">
-                     <img class="tp-hero-five-2-thumb-inner" src="assets/img/hero/hero-shape-5-1-1.png" alt="">
+                     <img class="tp-hero-five-2-thumb-inner" src="./assets/img/hero/hero-shape-5-1-1.png" alt="">
                   </div>
                   <div class="tp-hero-five-2-sub-img-1 d-none d-md-block">
-                     <img src="assets/img/hero/home-shape-1-1.png" alt="">
+                     <img src="./assets/img/hero/home-shape-1-1.png" alt="">
                   </div>
                   <div class="tp-hero-five-2-sub-img-2 d-none d-md-block">
-                     <img src="assets/img/hero/home-shape-1-2.png" alt="">
+                     <img src="./assets/img/hero/home-shape-1-2.png" alt="">
                   </div>
                </div>
             </div>
@@ -334,47 +301,47 @@
                            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 justify-content-center">
                               <div class="col">
                                  <div class="ab-brand-item mb-25">
-                                    <img src="assets/img/brand/brand-inner-1.png" alt="">
+                                    <img src="./assets/img/brand/brand-inner-1.png" alt="">
                                  </div>
                               </div>
                               <div class="col">
                                  <div class="ab-brand-item mb-25">
-                                    <img src="assets/img/brand/brand-inner-2.png" alt="">
+                                    <img src="./assets/img/brand/brand-inner-2.png" alt="">
                                  </div>
                               </div>
                               <div class="col">
                                  <div class="ab-brand-item mb-25">
-                                    <img src="assets/img/brand/brand-inner-3.png" alt="">
+                                    <img src="./assets/img/brand/brand-inner-3.png" alt="">
                                  </div>
                               </div>
                               <div class="col">
                                  <div class="ab-brand-item mb-25">
-                                    <img src="assets/img/brand/brand-inner-4.png" alt="">
+                                    <img src="./assets/img/brand/brand-inner-4.png" alt="">
                                  </div>
                               </div>
                               <div class="col">
                                  <div class="ab-brand-item mb-25">
-                                    <img src="assets/img/brand/brand-inner-5.png" alt="">
+                                    <img src="./assets/img/brand/brand-inner-5.png" alt="">
                                  </div>
                               </div>
                               <div class="col">
                                  <div class="ab-brand-item mb-25">
-                                    <img src="assets/img/brand/brand-inner-6.png" alt="">
+                                    <img src="./assets/img/brand/brand-inner-6.png" alt="">
                                  </div>
                               </div>
                               <div class="col">
                                  <div class="ab-brand-item mb-25">
-                                    <img src="assets/img/brand/brand-inner-7.png" alt="">
+                                    <img src="./assets/img/brand/brand-inner-7.png" alt="">
                                  </div>
                               </div>
                               <div class="col">
                                  <div class="ab-brand-item mb-25">
-                                    <img src="assets/img/brand/brand-inner-8.png" alt="">
+                                    <img src="./assets/img/brand/brand-inner-8.png" alt="">
                                  </div>
                               </div>
                               <div class="col">
                                  <div class="ab-brand-item mb-25">
-                                    <img src="assets/img/brand/brand-inner-9.png" alt="">
+                                    <img src="./assets/img/brand/brand-inner-9.png" alt="">
                                  </div>
                               </div>
                            </div>
@@ -433,29 +400,29 @@
                         <div class="col-xl-7 col-lg-7 wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".3s">
                            <div class="tp-plan-img-box p-relative">
                               <div class="tp-plan-img-1">
-                                 <img src="assets/img/plan/plan-1.png" alt="">
+                                 <img src="./assets/img/plan/plan-1.png" alt="">
                               </div>
                               <div class="tp-plan-img-2 d-none d-sm-block">
-                                 <img src="assets/img/plan/plan-2.png" alt="">
+                                 <img src="./assets/img/plan/plan-2.png" alt="">
                               </div>
                               <div class="tp-plan-img-3 d-none d-sm-block">
-                                 <img src="assets/img/plan/plan-3.png" alt="">
+                                 <img src="./assets/img/plan/plan-3.png" alt="">
                               </div>
                               <div class="tp-plan-img-4">
-                                 <img src="assets/img/plan/plan-4.png" alt="">
+                                 <img src="./assets/img/plan/plan-4.png" alt="">
                               </div>
                               <div class="tp-plan-img-5">
-                                 <img src="assets/img/plan/plan-5.png" alt="">
+                                 <img src="./assets/img/plan/plan-5.png" alt="">
                               </div>
                               <div class="tp-plan-img-6 d-none d-sm-block">
-                                 <img src="assets/img/plan/plan-6.png" alt="">
+                                 <img src="./assets/img/plan/plan-6.png" alt="">
                               </div>
                            </div>
                         </div>
                         <div class="col-xl-5 col-lg-5 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">
                            <div class="tp-plan-section-box">
                               <div class="tp-plan-section-icon pb-30">
-                                 <img src="assets/img/cta/cta-title-icon-1.png" alt="">
+                                 <img src="./assets/img/cta/cta-title-icon-1.png" alt="">
                               </div>
                               <span class="tp-section-subtitle-5 text-black">How will we help you</span>
                               <h3 class="tp-section-title-5 text-black pb-15"><span>MSME’s </span><br>Business Success
@@ -484,7 +451,7 @@
                         <div class="col-xl-5 col-lg-5 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">
                            <div class="tp-plan-section-box">
                               <div class="tp-plan-section-icon pb-30">
-                                 <img src="assets/img/cta/cta-title-icon-1.png" alt="">
+                                 <img src="./assets/img/cta/cta-title-icon-1.png" alt="">
                               </div>
 
                               <h3 class="tp-section-title-5 text-black pb-15"><span>Tech Partner for </span><br>1st,2nd
@@ -505,22 +472,22 @@
                         <div class="col-xl-7 col-lg-7 wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".3s">
                            <div class="tp-plan-img-box p-relative">
                               <div class="tp-plan-img-1">
-                                 <img src="assets/img/plan/plan-1.png" alt="">
+                                 <img src="./assets/img/plan/plan-1.png" alt="">
                               </div>
                               <div class="tp-plan-img-2 d-none d-sm-block">
-                                 <img src="assets/img/plan/plan-2.png" alt="">
+                                 <img src="./assets/img/plan/plan-2.png" alt="">
                               </div>
                               <div class="tp-plan-img-3 d-none d-sm-block">
-                                 <img src="assets/img/plan/plan-3.png" alt="">
+                                 <img src="./assets/img/plan/plan-3.png" alt="">
                               </div>
                               <div class="tp-plan-img-4">
-                                 <img src="assets/img/plan/plan-4.png" alt="">
+                                 <img src="./assets/img/plan/plan-4.png" alt="">
                               </div>
                               <div class="tp-plan-img-5">
-                                 <img src="assets/img/plan/plan-5.png" alt="">
+                                 <img src="./assets/img/plan/plan-5.png" alt="">
                               </div>
                               <div class="tp-plan-img-6 d-none d-sm-block">
-                                 <img src="assets/img/plan/plan-6.png" alt="">
+                                 <img src="./assets/img/plan/plan-6.png" alt="">
                               </div>
                            </div>
                         </div>
@@ -557,11 +524,11 @@
                                     <div class="tp-project__slider-wrapper">
                                        <div class="tp-project__item d-flex align-items-center">
                                           <div class="tp-project__thumb">
-                                             <img src="assets/img/project/project-img-2.jpg" alt="">
+                                             <img src="./assets/img/project/project-img-2.jpg" alt="">
                                           </div>
                                           <div class="tp-project__content">
                                              <div class="tp-project__brand-icon">
-                                                <img src="assets/img/indexicon/1 (1).webp" alt="">
+                                                <img src="./assets/img/indexicon/1 (1).webp" alt="">
                                              </div>
                                              <div class="tp-project__title-box">
                                                 <h4 class="tp-project__title-sm"><a href="project-details.html">Website
@@ -596,11 +563,11 @@
                                     <div class="tp-project__slider-wrapper">
                                        <div class="tp-project__item d-flex align-items-center">
                                           <div class="tp-project__thumb">
-                                             <img src="assets/img/project/project-img-1.jpg" alt="">
+                                             <img src="./assets/img/project/project-img-1.jpg" alt="">
                                           </div>
                                           <div class="tp-project__content">
                                              <div class="tp-project__brand-icon">
-                                                <img src="assets/img/indexicon/ablexperts.webp" alt="">
+                                                <img src="./assets/img/indexicon/ablexperts.webp" alt="">
                                              </div>
                                              <div class="tp-project__title-box">
                                                 <h4 class="tp-project__title-sm"><a href="project-details.html">Website
@@ -634,11 +601,11 @@
                                     <div class="tp-project__slider-wrapper">
                                        <div class="tp-project__item d-flex align-items-center">
                                           <div class="tp-project__thumb">
-                                             <img src="assets/img/project/project-img-3.jpg" alt="">
+                                             <img src="./assets/img/project/project-img-3.jpg" alt="">
                                           </div>
                                           <div class="tp-project__content">
                                              <div class="tp-project__brand-icon">
-                                                <img src="assets/img/indexicon/3 (1).webp" alt="">
+                                                <img src="./assets/img/indexicon/3 (1).webp" alt="">
                                              </div>
                                              <div class="tp-project__title-box">
                                                 <h4 class="tp-project__title-sm"><a href="project-details.html">Website
@@ -735,7 +702,7 @@
                               <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                                  <div class="tp-price__item p-relative">
                                     <div class="tp-price__icon">
-                                       <img src="assets/img/price/price-icon-1.png" alt="">
+                                       <img src="./assets/img/price/price-icon-1.png" alt="">
                                     </div>
                                     <div class="tp-price__title-box">
                                        <h4 class="tp-price__title-sm">Product Discovery<br> 2 to 5 days </h4>
@@ -757,7 +724,7 @@
                               <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                                  <div class="tp-price__item active p-relative">
                                     <div class="tp-price__icon">
-                                       <img src="assets/img/price/price-icon-2.png" alt="">
+                                       <img src="./assets/img/price/price-icon-2.png" alt="">
                                     </div>
                                     <div class="tp-price__title-box">
                                        <h4 class="tp-price__title-sm">Product Design<br> 10 to 15 days
@@ -783,7 +750,7 @@
                               <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                                  <div class="tp-price__item p-relative">
                                     <div class="tp-price__icon">
-                                       <img src="assets/img/price/price-icon-3.png" alt="">
+                                       <img src="./assets/img/price/price-icon-3.png" alt="">
                                     </div>
                                     <div class="tp-price__title-box">
                                        <h4 class="tp-price__title-sm">Product Engineering <br> 2 to 3 months</h4>
@@ -815,7 +782,7 @@
                               <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                                  <div class="tp-price__item p-relative">
                                     <div class="tp-price__icon">
-                                       <img src="assets/img/price/price-icon-1.png" alt="">
+                                       <img src="./assets/img/price/price-icon-1.png" alt="">
                                     </div>
                                     <div class="tp-price__title-box">
                                        <h4 class="tp-price__title-sm">Personal Plan</h4>
@@ -902,7 +869,7 @@
                               <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                                  <div class="tp-price__item active p-relative">
                                     <div class="tp-price__icon">
-                                       <img src="assets/img/price/price-icon-2.png" alt="">
+                                       <img src="./assets/img/price/price-icon-2.png" alt="">
                                     </div>
                                     <div class="tp-price__title-box">
                                        <h4 class="tp-price__title-sm">Advanced</h4>
@@ -988,7 +955,7 @@
                               <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                                  <div class="tp-price__item p-relative">
                                     <div class="tp-price__icon">
-                                       <img src="assets/img/price/price-icon-3.png" alt="">
+                                       <img src="./assets/img/price/price-icon-3.png" alt="">
                                     </div>
                                     <div class="tp-price__title-box">
                                        <h4 class="tp-price__title-sm">For Team</h4>
@@ -1177,7 +1144,7 @@
                                           <div class="col-xl-7 col-lg-7">
                                              <div class="tp-testimonial__left-item p-relative">
                                                 <div class="tp-testimonial__logo">
-                                                   <img src="assets/img/testimonial/testi-logo-up-3.png" alt="">
+                                                   <img src="./assets/img/testimonial/testi-logo-up-3.png" alt="">
                                                 </div>
                                                 <div class="tp-testimonial__content z-index">
                                                    <p>“Business growth is a point a business reaches where it expands
@@ -1222,7 +1189,7 @@
                                           <div class="col-xl-7 col-lg-7">
                                              <div class="tp-testimonial__left-item p-relative">
                                                 <div class="tp-testimonial__logo">
-                                                   <img src="assets/img/testimonial/testi-logo-up-4.png" alt="">
+                                                   <img src="./assets/img/testimonial/testi-logo-up-4.png" alt="">
                                                 </div>
                                                 <div class="tp-testimonial__content z-index">
                                                    <p>“Market penetration. The aim of this strategy is to increase sales
@@ -1267,7 +1234,7 @@
                                           <div class="col-xl-7 col-lg-7">
                                              <div class="tp-testimonial__left-item p-relative">
                                                 <div class="tp-testimonial__logo">
-                                                   <img src="assets/img/testimonial/testi-logo-up-5.png" alt="">
+                                                   <img src="./assets/img/testimonial/testi-logo-up-5.png" alt="">
                                                 </div>
                                                 <div class="tp-testimonial__content z-index">
                                                    <p>“Every new business and start-up, big or small, goes through the
@@ -1312,7 +1279,7 @@
                                           <div class="col-xl-7 col-lg-7">
                                              <div class="tp-testimonial__left-item p-relative">
                                                 <div class="tp-testimonial__logo">
-                                                   <img src="assets/img/testimonial/testi-logo-up-6.png" alt="">
+                                                   <img src="./assets/img/testimonial/testi-logo-up-6.png" alt="">
                                                 </div>
                                                 <div class="tp-testimonial__content z-index">
                                                    <p>“Calculating the growth rates of various metrics and then
@@ -1357,7 +1324,7 @@
                                           <div class="col-xl-7 col-lg-7">
                                              <div class="tp-testimonial__left-item p-relative">
                                                 <div class="tp-testimonial__logo">
-                                                   <img src="assets/img/testimonial/testi-logo-up-1.png" alt="">
+                                                   <img src="./assets/img/testimonial/testi-logo-up-1.png" alt="">
                                                 </div>
                                                 <div class="tp-testimonial__content z-index">
                                                    <p>“While there is no way to guarantee success, implementing these
@@ -1402,7 +1369,7 @@
                                           <div class="col-xl-7 col-lg-7">
                                              <div class="tp-testimonial__left-item p-relative">
                                                 <div class="tp-testimonial__logo">
-                                                   <img src="assets/img/testimonial/testi-logo-up-5.png" alt="">
+                                                   <img src="./assets/img/testimonial/testi-logo-up-5.png" alt="">
                                                 </div>
                                                 <div class="tp-testimonial__content z-index">
                                                    <p>“Small businesses can quickly adapt and respond to customers’
@@ -1607,7 +1574,7 @@
                               data-wow-delay=".5s">
                               <div class="tp-footer__widget footer-col-1">
                                  <a href="index.html" class="tp-footer__widget-logo mb-10">
-                                    <img src="assets/img/logo/logo-white.png" alt="">
+                                    <img src="./assets/img/logo/logo-white.png" alt="">
                                  </a>
                                  <div class="tp-footer__text">
                                     <p>Don’t Worry as a Non-Tech Business Owner, Contact Us… All your stress fade away
@@ -1744,25 +1711,25 @@
 
 
    <!-- JS here -->
-   <script src="assets/js/jquery.js"></script>
-   <script src="assets/js/waypoints.js"></script>
-   <script src="assets/js/bootstrap.bundle.min.js"></script>
-   <script src="assets/js/wow.js"></script>
-   <script src="assets/js/slick.min.js"></script>
-   <script src="assets/js/magnific-popup.js"></script>
-   <script src="assets/js/counterup.js"></script>
-   <script src="assets/js/nice-select.js"></script>
-   <script src="assets/js/swiper-bundle.js"></script>
-   <script src="assets/js/meanmenu.js"></script>
-   <script src="assets/js/tilt.jquery.js"></script>
-   <script src="assets/js/isotope-pkgd.js"></script>
-   <script src="assets/js/imagesloaded-pkgd.js"></script>
-   <script src="assets/js/ajax-form.js"></script>
-   <script src="assets/js/gsap.min.js"></script>
-   <script src="assets/js/ScrollTrigger.min.js"></script>
-   <script src="assets/js/ScrollSmoother.min.js"></script>
-   <script src="assets/js/split-text.min.js"></script>
-   <script src="assets/js/main.js"></script>
+   <script src="./assets/js/jquery.js"></script>
+   <script src="./assets/js/waypoints.js"></script>
+   <script src="./assets/js/bootstrap.bundle.min.js"></script>
+   <script src="./assets/js/wow.js"></script>
+   <script src="./assets/js/slick.min.js"></script>
+   <script src="./assets/js/magnific-popup.js"></script>
+   <script src="./assets/js/counterup.js"></script>
+   <script src="./assets/js/nice-select.js"></script>
+   <script src="./assets/js/swiper-bundle.js"></script>
+   <script src="./assets/js/meanmenu.js"></script>
+   <script src="./assets/js/tilt.jquery.js"></script>
+   <script src="./assets/js/isotope-pkgd.js"></script>
+   <script src="./assets/js/imagesloaded-pkgd.js"></script>
+   <script src="./assets/js/ajax-form.js"></script>
+   <script src="./assets/js/gsap.min.js"></script>
+   <script src="./assets/js/ScrollTrigger.min.js"></script>
+   <script src="./assets/js/ScrollSmoother.min.js"></script>
+   <script src="./assets/js/split-text.min.js"></script>
+   <script src="./assets/js/main.js"></script>
 
 </body>
 
